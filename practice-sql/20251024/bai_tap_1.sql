@@ -6,8 +6,9 @@ bugs: bug_id, tester_id, status
 /* 
 1. Liệt kê tên tester và bug họ phụ trách (INNER JOIN) 
 2. Hiển thị tất cả tester (kể cả người chưa có bug)
-3.Hiển thị tất cả bug, kể cả bug chưa có tester
-4.
+3. Hiển thị tất cả bug, kể cả bug chưa có tester
+4. Đếm số bug mỗi tester đang xử lý
+5. Hiển thị tester có nhiều hơn 1 bug
 */
 
 /* Liệt kê tên tester và bug họ phụ trách (INNER JOIN) */
