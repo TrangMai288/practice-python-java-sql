@@ -1,9 +1,9 @@
-public class BaiTap2_Product {
+public class BaiTap2_FirstProduct {
     private String name;
     private int price;
     private int quantity;
 
-    public BaiTap2_Product(String name, int price, int quantity) {
+    public BaiTap2_FirstProduct(String name, int price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
