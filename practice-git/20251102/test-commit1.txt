@@ -1,0 +1,11 @@
+# Cách gộp commit
+1. git log --oneline (Ấn phím q để thoát)
+2. git rebase -i HEAD~n (n là số commit cần gộp)
+3. ấn nút s (hoặc nút i) để sửa
+4. Từ dòng thứ 2, thay từ pick thành từ s
+5. ấn ESC rồi ấn :x (hoặc :wq)
+6. ấn nút s để sửa thông tin PR
+7. ấn ESC rồi ấn :x (hoặc :wq)
+8. git log --oneline (kiểm tra số commit)
+9. git push -f origin [tên_branch]
+TrangMH đã cập nhật ngày 02/11/2025
